@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface text-muted antialiased;
+    background-image: radial-gradient(
+        ellipse 70% 55% at 50% -5%,
+        rgba(0, 178, 255, 0.14),
+        transparent 60%
+      ),
+      radial-gradient(ellipse 60% 50% at 100% 0%, rgba(7, 27, 42, 0.9), transparent 70%);
+  }
+
+  ::selection {
+    @apply bg-brand/30 text-ink;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #06111f;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #0d2b40;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #14405e;
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply mx-auto w-full max-w-7xl px-6 lg:px-8;
+  }
+
+  /* Frosted glass card */
+  .card {
+    @apply relative rounded-2xl border border-hair bg-surface-card backdrop-blur-md transition-all duration-300;
+  }
+  .card-hover:hover {
+    @apply border-brand/50 shadow-glow-sm;
+    transform: translateY(-4px);
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-7 py-3.5 text-sm font-semibold tracking-wide transition-all duration-300;
+  }
+  .btn-primary {
+    @apply bg-brand-cta text-white shadow-glow hover:bg-brand;
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 60px rgba(0, 178, 255, 0.4);
+  }
+  .btn-secondary {
+    @apply border border-hair bg-white/[0.02] text-ink hover:border-brand/60 hover:text-brand;
+  }
+
+  .neon-divider {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-brand/35 to-transparent;
+  }
+}
+
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+  }
+  .reveal.is-revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient(to bottom, black 70%, transparent);
+  }
+}
