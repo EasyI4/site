@@ -55,7 +55,7 @@ const solutions = [
       <div class="mb-14 flex flex-col items-center gap-5" v-reveal>
         <SectionBadge label="Soluções" />
         <SectionTitle
-          subtitle="Sistemas sob medida com IA integrada que se pagam na operação. Menos custo manual, mais velocidade."
+          subtitle="Sistemas Agênticos Sob Medida que se pagam na operação. Menos custo manual, mais velocidade."
         >
           A infraestrutura inteligente da sua <span class="text-brand">operação</span>
         </SectionTitle>

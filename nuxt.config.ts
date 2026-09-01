@@ -14,14 +14,14 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'pt-BR' },
-      title: 'EASYIA | Sistemas sob medida com IA integrada',
+      title: 'EASYIA | Sistemas Agênticos Sob Medida',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'A EASYIA desenvolve sistemas sob medida com IA integrada para operações que precisam escalar: automação de processos, integração de dados, dashboards e sustentação contínua.'
+            'A EASYIA desenvolve Sistemas Agênticos Sob Medida para operações que precisam escalar: automação de processos, integração de dados, dashboards e sustentação contínua.'
         },
         { name: 'author', content: 'EASYIA' },
         { name: 'robots', content: 'index, follow' },
@@ -30,20 +30,20 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { property: 'og:locale', content: 'pt_BR' },
         { property: 'og:site_name', content: 'EASYIA' },
-        { property: 'og:title', content: 'EASYIA | Sistemas sob medida com IA integrada' },
+        { property: 'og:title', content: 'EASYIA | Sistemas Agênticos Sob Medida' },
         {
           property: 'og:description',
           content:
-            'Sistemas sob medida com IA integrada: automação, integração com CRM, ERP, APIs e dados, dashboards e sustentação para escalar a operação.'
+            'Sistemas Agênticos Sob Medida: automação, integração com CRM, ERP, APIs e dados, dashboards e sustentação para escalar a operação.'
         },
         { property: 'og:image', content: 'https://i.ibb.co/Dgfn13g9/easyia.png' },
         { property: 'og:image:alt', content: 'Logo da EASYIA' },
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'EASYIA | Sistemas sob medida com IA integrada' },
+        { name: 'twitter:title', content: 'EASYIA | Sistemas Agênticos Sob Medida' },
         {
           name: 'twitter:description',
           content:
-            'A EASYIA desenvolve sistemas sob medida com IA integrada para operações que precisam escalar.'
+            'A EASYIA desenvolve Sistemas Agênticos Sob Medida para operações que precisam escalar.'
         },
         { name: 'twitter:image', content: 'https://i.ibb.co/Dgfn13g9/easyia.png' },
         { name: 'twitter:image:alt', content: 'Logo da EASYIA' }

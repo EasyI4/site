@@ -33,7 +33,7 @@ const ctaHref =
         </h1>
 
         <p class="mt-7 max-w-2xl text-lg leading-relaxed text-muted" v-reveal="120">
-          Automatizamos processos, conectamos dados e construímos sistemas com IA integrada.
+          Automatizamos processos, conectamos dados e construímos Sistemas Agênticos.
           Menos retrabalho. Mais escala.
         </p>
 

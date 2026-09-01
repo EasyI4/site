@@ -1,6 +1,6 @@
 {
   "name": "EasyIA Site",
-  "description": "Site institucional da EasyIA: sistemas sob medida com IA integrada.",
+  "description": "Site institucional da EasyIA: Sistemas Agênticos Sob Medida",
   "repository": "",
   "keywords": ["nuxt", "vue", "tailwind", "node"],
   "stack": "heroku-24",
