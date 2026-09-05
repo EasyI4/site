@@ -2,7 +2,7 @@
 const items = [
   { value: '+50 projetos', label: 'entregues em produção' },
   { value: '+10 anos', label: 'de experiência em sistemas, integrações e IA' },
-  { value: 'Sistemas Agênticos Sob Medida', label: 'a CRM, ERP, APIs e bancos de dados' },
+  { value: 'Plataformas Agênticas Sob Medida', label: 'a CRM, ERP, APIs e bancos de dados' },
   { value: 'Suporte contínuo', label: 'evolução e sustentação dos sistemas' },
   { value: 'Menos retrabalho', label: 'mais escala na operação' }
 ]
