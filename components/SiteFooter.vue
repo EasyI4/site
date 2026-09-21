@@ -60,7 +60,7 @@ const socials = [
             <img src="/logo.png" alt="EasyIA" class="h-9 w-auto" />
           </a>
           <p class="mt-4 max-w-xs text-sm leading-relaxed text-muted">
-            Plataformas Agênticas Sob Medida para operações que precisam escalar.
+            Sistemas Agênticos Sob Medida para operações que precisam escalar.
           </p>
 
           <div class="mt-6 flex items-center gap-3">
